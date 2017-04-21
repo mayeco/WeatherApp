@@ -58,8 +58,6 @@ class DefaultController extends BaseController
             throw new \InvalidArgumentException('Error in request.');
         }
 
-        dump($body);
-
         $response = $body['response'];
         $response = $response[0];
         $response = $response['periods'];
