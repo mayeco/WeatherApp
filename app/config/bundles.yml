@@ -1,0 +1,9 @@
+bundles:
+  - Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle
+  - Doctrine\Bundle\DoctrineCacheBundle\DoctrineCacheBundle
+  - JMS\AopBundle\JMSAopBundle
+  - JMS\DiExtraBundle\JMSDiExtraBundle
+  - APY\BreadcrumbTrailBundle\APYBreadcrumbTrailBundle
+  - FOS\RestBundle\FOSRestBundle
+  - Weather\FrontendBundle\WeatherFrontendBundle
+  - Weather\AppBundle\WeatherAppBundle

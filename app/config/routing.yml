@@ -1,0 +1,4 @@
+whether_app:
+    resource: "@WeatherAppBundle/Controller/"
+    type:     annotation
+    prefix:   /

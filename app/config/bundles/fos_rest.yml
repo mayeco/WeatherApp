@@ -1,0 +1,17 @@
+fos_rest:
+    exception:
+        enabled: true
+    routing_loader:
+        default_format: null
+    view:
+        default_engine: twig
+        view_response_listener: 'force'
+        formats:
+            json: true
+            html: true
+    format_listener:
+        rules:
+            - { priorities: [json, html], fallback_format: html }
+    body_converter:
+        enabled: true
+    param_fetcher_listener: force

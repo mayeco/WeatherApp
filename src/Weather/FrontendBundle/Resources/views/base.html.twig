@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ assets_version('css/app.css') }}" />
+    {% block stylesheets %}{% endblock %}
+</head>
+<body{% block body_class %}{% endblock %}>
+{% include "@WeatherFrontend/_partials/header.html.twig" %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+            {{ apy_breadcrumb_trail_render() }}
+        </div>
+    </div>
+{% block body %}{% endblock %}
+</div>
+<script type="text/javascript" src="{{ assets_version('js/app.js') }}"></script>
+{% block javascripts %}{% endblock %}
+</body>
+</html>

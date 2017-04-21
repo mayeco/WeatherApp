@@ -1,0 +1,2 @@
+imports:
+    - resource: '../../../vendor/beberlei/DoctrineExtensions/config/mysql.yml'

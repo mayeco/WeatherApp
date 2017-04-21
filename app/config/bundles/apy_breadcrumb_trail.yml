@@ -1,0 +1,2 @@
+apy_breadcrumb_trail:
+    template: '@WeatherFrontend/_partials/breadcrumb/breadcrumbtrail.html.twig'

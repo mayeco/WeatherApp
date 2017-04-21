@@ -1,0 +1,4 @@
+web_profiler_extra:
+    assetic:
+        enabled:        false
+        display_in_wdt: false

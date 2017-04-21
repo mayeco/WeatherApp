@@ -1,0 +1,4 @@
+doctrine_cache:
+    providers:
+        metadata_cache:
+            type: apc

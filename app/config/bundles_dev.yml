@@ -1,0 +1,7 @@
+bundles:
+  - Symfony\Bundle\DebugBundle\DebugBundle
+  - Symfony\Bundle\WebProfilerBundle\WebProfilerBundle
+  - Sensio\Bundle\DistributionBundle\SensioDistributionBundle
+  - Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle
+
+  - Elao\WebProfilerExtraBundle\WebProfilerExtraBundle
