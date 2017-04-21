@@ -60,7 +60,12 @@
         "symfony-tests-dir": "tests",
         "symfony-assets-install": "relative",
         "incenteev-parameters": {
-            "file": "app/config/parameters.yml"
+            "file": "app/config/parameters.yml",
+            "env-map": {
+                "secret": "SECRET",
+                "aerisapi_client_id": "AERISAPI_CLIENT_ID",
+                "aerisapi_client_secret": "AERISAPI_CLIENT_SECRET"
+            }
         },
         "branch-alias": null
     },
